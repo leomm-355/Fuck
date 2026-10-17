@@ -54,16 +54,16 @@ def private_panel(_):
         ],
         [
             btn(
-                " sυᴘᴘσʀᴛ",
+                "ᴍᴏʀᴇ ɪɴғᴏ",
                 #"success",
                 #5134202243486057363,
-                url=config.SUPPORT_CHAT,
+                callback_data="Alone_Music",
             ),
             btn(
-                "υᴘᴅᴧᴛєs",
+                "Cʟᴏɴᴇ Mᴇ",
                 #"success",
                # 5085022089103016925,
-                url=config.SUPPORT_CHANNEL,
+                url=config.CODE_CREW_CHANNEL,
             ),
         ],
         [
@@ -74,12 +74,12 @@ def private_panel(_):
                 callback_data="settings_back_helper",
             ),
         ],
-        [
-            btn(
-                "❍ᴡηєʀ",
+       # [
+          #  btn(
+              #  "❍ᴡηєʀ",
                 #"success",
                 #5134202243486057363,
-                url=config.CODE_CREW_CHANNEL,
-            ),
-        ],
+               # url=config.CODE_CREW_CHANNEL,
+            #),
+       # ],
     ]
