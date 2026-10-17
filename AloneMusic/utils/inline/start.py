@@ -57,7 +57,7 @@ def private_panel(_):
                 "ᴍᴏʀᴇ ɪɴғᴏ",
                 #"success",
                 #5134202243486057363,
-                callback_data="Alone_Music",
+                callback_data="^Alone_Music$",
             ),
             btn(
                 "Cʟᴏɴᴇ Mᴇ",
