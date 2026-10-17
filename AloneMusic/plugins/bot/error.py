@@ -7,15 +7,15 @@ from AloneMusic import app
 MUST_JOIN = ["myanmarbot_music", "myanmar_music_bot2027"]
 #------------------------
 
-@nand.on_message(filters.incoming & filters.private, group=-1)
-async def must_join_channel(nand: Client, msg: Message):
+@app.on_message(filters.incoming & filters.private, group=-1)
+async def must_join_channel(app: Client, msg: Message):
     if not MUST_JOIN:
         return
 
     for channel in MUST_JOIN:
         try:
             try:
-                await nand.get_chat_member(channel, msg.from_user.id)
+                await app.get_chat_member(channel, msg.from_user.id)
             except UserNotParticipant:
                 if channel.isalpha():
                     link = "https://t.me/" + channel
