@@ -20,7 +20,7 @@ async def must_join_channel(app: Client, msg: Message):
                 if channel.isalpha():
                     link = "https://t.me/" + channel
                 else:
-                    chat_info = await nand.get_chat(channel)
+                    chat_info = await app.get_chat(channel)
                     link = chat_info.invite_link
                 try:
                     await msg.reply_video(
