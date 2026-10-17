@@ -142,7 +142,7 @@ async def support(client, CallbackQuery, _):
                 [
                     InlineKeyboardButton(
                         text="⌯ ᴅᴇᴠ ⌯", 
-                        user_id=config.OWNER_LINK
+                        url=config.OWNER_LINK
                     )
                 ],
                 [
