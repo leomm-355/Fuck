@@ -56,7 +56,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "8806982181:AAHU0LYvLs7aEPR-YkggHV_-nYgbiXw5YTw"
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://lollolopp0900_db_user:xbaj05RPixvCXNMS@zero.rqsozug.mongodb.net/?appName=Zero")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
-CODE_CREW_CHANNEL = "https://t.me/cores_999"
+CODE_CREW_CHANNEL = "https://t.me/PANDAMUSIC9_BOT"
 # Set this to true if you want post ads automatically
 ADS_MODE = getenv("ADS_MODE", None)
 
