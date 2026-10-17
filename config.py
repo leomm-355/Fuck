@@ -46,11 +46,11 @@ SPOTIFY_PLAYLIST_IMG_URL = get_thumb()
 #YT_API_KEY = getenv("YT_API_KEY" , "xbit_KiY0HWimxyDMVxjg6R7-7UtJKyPW9kSD")
 
 # Get this value from my.telegram.org/apps
-API_ID = getenv("API_ID", "25742938")
-API_HASH = getenv("API_HASH", "b35b715fe8dc0a58e8048988286fc5b6")
+API_ID = getenv("API_ID", "")
+API_HASH = getenv("API_HASH", "")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "8806982181:AAHU0LYvLs7aEPR-YkggHV_-nYgbiXw5YTw")
+BOT_TOKEN = getenv("BOT_TOKEN", "8806982181:-YkggHV_-nYgbiXw5YTw")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://lollolopp0900_db_user:xbaj05RPixvCXNMS@zero.rqsozug.mongodb.net/?appName=Zero")
@@ -85,6 +85,7 @@ GIT_TOKEN = getenv(
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/myanmarbot_music")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/myanmar_music_bot2027")
+OWNER_LINK = getenv("OWNER_LINK", "https://t.me/cores_999")
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", None))
 
